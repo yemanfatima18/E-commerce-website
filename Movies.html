@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Genres</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background:#04364A;
+      text-align: center;
+      color: white;
+      font-size: 1.8rem;
+      padding: 20px;
+    }
+
+    main {
+      background: #176B87;
+
+      max-width: 1500px;
+     
+    }
+
+    .genre-container {
+      
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .genre {
+      flex: 0 0 30%;
+      margin: 10px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+
+    .genre h2 {
+      color: #333;
+    }
+
+    .movie-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .movie-list li {
+      margin-bottom: 8px;
+    }
+    footer {
+      
+  background: #2D9596;
+  text-align: center;
+  max-width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.footer-section {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-section h3 {
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 8px;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+li{
+  font-size: 1.3rem;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Movies Genres</h1>
+  </header>
+
+  <main>
+    <div class="genre-container">
+      <div class="genre">
+        <h2>Action</h2>
+        <ul class="movie-list">
+          <li>Die Hard</li>
+          <li>Mad Max: Fury Road</li>
+          <li>John Wick</li>
+          <li>Black Panther</li>
+          <li>The Dark Knight</li>
+        </ul>
+      </div>
+      <div class="genre">
+        <h2>Comedy</h2>
+        <ul class="movie-list">
+          <li>Superbad</li>
+          <li>Anchorman</li>
+          <li>The Hangover</li>
+          <li>Bridesmaids</li>
+          <li>Shaun of the Dead</li>
+        </ul>
+      </div>
+      <div class="genre">
+        <h2>Drama</h2>
+        <ul class="movie-list">
+          <li>The Shawshank Redemption</li>
+          <li>Forrest Gump</li>
+          <li>The Godfather</li>
+          <li>Schindler's List</li>
+          <li>The Green Mile</li>
+        </ul>
+      </div>
+      <div class="genre">
+        <h2>Science Fiction</h2>
+        <ul class="movie-list">
+          <li>Blade Runner</li>
+          <li>The Matrix</li>
+          <li>Star Wars: A New Hope</li>
+          <li>Interstellar</li>
+          <li>E.T. the Extra-Terrestrial</li>
+        </ul>
+      </div>
+      <div class="genre">
+        <h2>Bollywood</h2>
+        <ul class="movie-list">
+          <li>Dilwale Dulhania Le Jayenge</li>
+          <li>Sholay</li>
+          <li>Lagaan</li>
+          <li>Kabhi Khushi Kabhie Gham</li>
+          <li>3 Idiots</li>
+          <li>Dangal</li>
+          <li>PK</li>
+          <li>Bajrangi Bhaijaan</li>
+          <li>Padmaavat</li>
+          <li>Kuch Kuch Hota Hai</li>
+        </ul>
+      </div>
+      <div class="genre">
+        <h2>Horror</h2>
+        <ul class="movie-list">
+          <li>The Exorcist</li>
+        <li>The Shining</li>
+        <li>A Nightmare on Elm Street</li>
+        <li>The Conjuring</li>
+        <li>Get Out</li>
+        <li>Psycho</li>
+        <li>Hereditary</li>
+        <li>It</li>
+        <li>The Babadook</li>
+        <li>Insidious</li>
+        </ul>
+      </div>
+      <div class="genre">
+        <h2>Romance</h2>
+        <ul class="movie-list">
+          
+          <li>Titanic</li>
+          <li>The Notebook</li>
+          <li>Pride and Prejudice</li>
+          <li>Romeo + Juliet</li>
+          <li>La La Land</li>
+          <li>Before Sunrise</li>
+          <li>500 Days of Summer</li>
+          <li>Crazy Rich Asians</li>
+          <li>Notting Hill</li>
+          <li>Love Actually</li>
+        </ul>
+      </div>
+      <div class="genre">
+        <h2>Mysteries</h2>
+        <ul class="movie-list">
+          <li>Titanic</li>
+          <li>The Notebook</li>
+          <li>Pride and Prejudice</li>
+          <li>Romeo + Juliet</li>
+          <li>La La Land</li>
+          <li>Before Sunrise</li>
+          <li>500 Days of Summer</li>
+          <li>Crazy Rich Asians</li>
+          <li>Notting Hill</li>
+          <li>Love Actually</li>
+        </ul>
+      </div>
+     
+    </div>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>Curator-X is an intelligent system that analyzes user data and behavior to
+            suggest relevant and personalized content.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="#">Recommendations</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Connect With Us</h3>
+          <p>Follow us on social media:</p>
+          <!-- Add your social media icons or links here -->
+        </div>
+      </div>
+    </footer>
+  </main>
+
+</body>
+</html>

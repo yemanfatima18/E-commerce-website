@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's New - Content Recommendations</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: rgb(84,93,143);
+            background: linear-gradient(90deg, rgba(84,93,143,1) 31%, rgba(0,226,255,1) 100%);
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1500px;
+            padding: 20px;
+        }
+
+        .card {
+            position: relative;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+            opacity: 0;
+            transition: opacity 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .card:hover .overlay {
+            opacity: 1;
+        }
+
+        h2, h3, h4 {
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #ddd;
+            line-height: 1.4;
+            margin-bottom: 0;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        .upper{
+            font-size: 3.5rem;
+            color: #ddd;
+            text-decoration: solid;
+            text-decoration-line: underline;
+        
+        }
+        .upper1{
+            font-size: 3rem;
+            color: #ddd;
+            text-decoration: solid;
+            text-decoration-line: underline;
+
+        }
+        footer {
+      
+      background: #2D9596;
+      text-align: center;
+      max-width: 100%;
+    }
+    
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      
+    }
+    
+    .footer-section {
+      flex: 1;
+      text-align: left;
+    }
+    
+    .footer-section h3 {
+      color: #fff;
+    }
+    
+    .footer-section ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .footer-section li {
+      margin-bottom: 8px;
+    }
+    
+    .footer-section a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    .footer-section a:hover {
+      text-decoration: underline;
+    }
+    </style>
+</head>
+<body>
+    <h1 align="center" class="upper">WHAT'S NEW</h1>
+    <h2 class="upper1"align="center">Hello,Watch New trailers</h2>
+
+    <div class="container">
+        <div class="card">
+            <img src="m1.webp" alt="Movie">
+            <div class="overlay">
+                <h2>New Releases</h2>
+                <h3>New Movie Release</h3>
+                <a href="https://www.primevideo.com/">Read More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="m2.webp" alt="Book">
+            <div class="overlay">
+                <h2>New Releases</h2>
+                <h3>new movie release</h3>
+
+                <a href="https://www.primevideo.com/">Read More</a>
+            </div>
+        </div>
+
+       
+        <div class="card">
+            <img src="m3.webp" alt="Game">
+            <div class="overlay">
+                <h2>new movies</h2>
+                <h3>bollowood</h3>
+               
+                <a href="#">Play Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="b1.webp" alt="Podcast">
+            <div class="overlay">
+                <h2>New Releases</h2>
+                <h3>New hollywood release</h3>
+               
+                <a href="https://www.primevideo.com/">Listen Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="b2.webp" alt="Game">
+            <div class="overlay">
+                <h2>new movies</h2>
+                <h3>Hollowood</h3>
+               
+                <a href="https://www.netflix.com/in/">Play Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="b3.webp" alt="Game">
+            <div class="overlay">
+                <h2>new movies</h2>
+                <h3>Hollowood</h3>
+               
+                <a href="https://www.netflix.com/in/">Play Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="a1.webp" alt="Game">
+            <div class="overlay">
+                <h2>new ANIME</h2>
+                <h3>watch here</h3>
+                
+               
+                <a href="https://www.netflix.com/in/">Play Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="a2.webp" alt="Game">
+            <div class="overlay">
+                <h2>new ANIME</h2>
+                <h3>watch here</h3>
+                
+               
+                <a href="https://www.netflix.com/in/">Play Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="a3.webp" alt="Game">
+            <div class="overlay">
+                <h2>new ANIME</h2>
+                <h3>watch here</h3>
+                
+               
+                <a href="https://www.netflix.com/in/">Play Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <img src="v.webp" alt="Game">
+        <div class="overlay">
+            <h2>What's New</h2>
+            <h3>Watch Here</h3>
+           
+            <a href="https://www.netflix.com/in/">Play Now</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="v3.webp" alt="Game">
+        <div class="overlay">
+            <h2>What's New</h2>
+            <h3>Watch Here</h3>
+           
+            <a href="https://www.netflix.com/in/">Play Now</a>
+        </div>
+    </div>
+   
+
+        <!-- Add more cards with additional headings as needed -->
+
+    </div>
+    <footer>
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>About Us</h3>
+            <p>Curator-X is an intelligent system that analyzes user data and behavior to
+              suggest relevant and personalized content.</p>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="main.html">Home</a></li>
+              <li><a href="#">Recommendations</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Connect With Us</h3>
+            <p>Follow us on social media:</p>
+            <!-- Add your social media icons or links here -->
+          </div>
+        </div>
+      </footer>
+
+</body>
+</html>

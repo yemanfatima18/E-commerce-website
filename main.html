@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <title>CuratorX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sitename">
+            <h1><img src="logo.png" height="100px" width="80px">uratorX</h1>
+            <h2><a href=""><img src="icons8-male-user-96.png"width=80px height="80px">
+            </a></h2>   
+            </div>
+        <div class="header">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">HOLA!!!People</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="whatsnew.html">What's New</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">My Stuff</a>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Choose Here
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="anime.html">Anime</a></li>
+                          <li><a class="dropdown-item" href="Movies.html">Movies</a></li>
+                          <li><a class="dropdown-item" href="k-drama.html">K-Drama</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="cartoon.html">Cartoons</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+            </div>
+    </div>
+    <div class="carsoul">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="wp6085066-jujutsu-kaisen-poster-wallpapers.jpg" height="600px" width="250px" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="C1JABk.jpg" height="600px" width="300px" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="906048-full-size-witcher-wallpaper-1920x1080-for-ipad.jpg" height="600px" width="300px" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="wp10426434.jpg" height="600px" width="300px" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="5623840.jpg" height="600px" width="300px" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="scooby-doo-09jyvhz0p76dtut7.jpg" height="600px" width="300px" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+    </div>
+    <br>
+    <br>
+    <div class="search">
+      <div class = "search-container">
+        <div class = "search-element">
+            <h3>Search Here:</h3>
+            <input type = "text" class = "form-control" placeholder="Search Movie Title ..." id = "movie-search-box" onkeyup="findMovies()" onclick = "findMovies()">
+
+            <div class = "search-list" id = "search-list">
+            </div>
+        </div>
+    </div>
+    <div class = "container">
+        <div class = "result-container">
+            <div class = "result-grid" id = "result-grid">
+              
+            </div>
+        </div>
+    </div>
+
+
+
+      </div>
+    <div class="cards">
+        <div class="card" style="width: 18rem;">
+            <img src="samuel-regan-asante-wMkaMXTJjlQ-unsplash.jpg" height="250px" width="250px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Watch Movies</h5>
+              <p class="card-text">Movies are the ultimate storytellers, weaving tales that whisk you away from reality. They're a portal to diverse worlds, emotions, and experiences, inviting you to laugh, cry, and ponder the depths of human existence in a couple of hours.</p>
+              <a href="Movies.html" class="btn btn-primary">Movies</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="gracia-dharma-qTlbO6mkQH0-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Watch Anime</h5>
+              <p class="card-text">Anime, a captivating realm where imagination knows no bounds, offers a kaleidoscope of emotions, stories, and artistry. Within its vibrant landscapes, you'll discover worlds teeming with adventure, mystery, and unparalleled creativity. </p>
+              <a href="anime.html" class="btn btn-primary">Anime</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="korean-drama-itaewon-class-stars-kjzzburs4e8bzdq6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Watch K-drama</h5>
+              <p class="card-text">K-dramas offer a mesmerizing blend of heartfelt storytelling, rich cultural nuances, and captivating performances that transport you into a world where emotions run deep and every moment is infused with irresistible charm. From epic romances to gripping mysteries, these shows beautifully weave together intricate plots that keep you on the edge of your seat, all while exploring themes of love, friendship, and resilience. With a unique ability to touch the soul and leave an indelible mark</p>
+              <a href="k-drama.html" class="btn btn-primary">K Drama</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="erik-mclean-27kCu7bXGEI-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Watch Cartoons</h5>
+              <p class="card-text">Cartoons aren't just colorful animations; they're vibrant worlds teeming with endless possibilities and timeless lessons. They spark imagination, laughter, and a sense of wonder, transcending age barriers to speak to the child in all of us. Whether it's the clever humor of classic characters or the immersive storytelling of modern series, cartoons offer an escape into a realm where the ordinary becomes extraordinary. </p>
+              <a href="cartoon.html" class="btn btn-primary">Cartoons</a>
+            </div>
+          </div>
+    </div>
+
+   
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>Your website description or information about your team.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Recommendations</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Connect With Us</h3>
+          <p>Follow us on social media:</p>
+          <!-- Add your social media icons or links here -->
+        </div>
+      </div>
+    </footer>
+
+<script src="script.js">
+
+</script>   
+
+</body>
+</html>

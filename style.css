@@ -1,0 +1,92 @@
+*{
+ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 280% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.container{
+    position: relative;
+     
+}
+.container-fluid{
+  margin: 0;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.sitename{
+    display:flex;
+    justify-content:space-between;
+     min-height: 80px;
+    color:antiquewhite;
+    font-size: 2.0rem;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.header{
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  
+  animation: gradient-animation 18s ease infinite;
+}
+footer {
+  
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-section h3 {
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 8px;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+.carsoul{
+  margin-left: 70px;
+  margin-right: 70px;
+}
